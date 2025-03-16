@@ -1,0 +1,75 @@
+body {
+    background: url('https://source.unsplash.com/1600x900/?nature,abstract') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(96, 224, 222);
+}
+.start-container {
+    text-align: center;
+    margin-top: 100px;
+}
+#quiz-container, #result-container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(71, 111, 118, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 20px;
+}
+.btn-group-vertical .btn {
+    text-align: left;
+}
+
+footer {
+    background-color: #f8f9fa; /* Light background */
+    padding: 20px 0;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer .container {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+footer a {
+    color: #333; /* Default text color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, transform 0.2s;
+    font-size: 24px;
+}
+
+footer a:hover {
+    color: #007bff; /* Bootstrap primary blue */
+    transform: scale(1.1);
+}
+
+footer .p-3 {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer .text-body {
+    font-weight: bold;
+    color: #007bff;
+}
+
+footer .text-body:hover {
+    text-decoration: underline;
+}
+
+/* Make it responsive */
+@media (max-width: 600px) {
+    footer section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
